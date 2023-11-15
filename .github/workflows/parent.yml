@@ -12,7 +12,7 @@ jobs:
         with:
           owner: sabhahit
           repo: child-pipeline
-          workflow-file-name: child.yml
+          workflow_file_name: child.yml
           github_token: ${{ secrets.my_ptoken }}
           ref: main
           
