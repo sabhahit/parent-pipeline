@@ -8,6 +8,7 @@ jobs:
     with:
         image_name: "my_image"
         tag: "my_tag"
+    secrets: inherit    
     
   #build:
   #  name: ns-build
