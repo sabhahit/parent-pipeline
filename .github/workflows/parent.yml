@@ -20,11 +20,11 @@ jobs:
           workflow_file_name: child.yml
           github_token: ${{ secrets.my_ptoken }}
           ref: main
-  build1:
-    uses: sabhahit/child-pipeline/.github/workflows/child.yml@main
-    with:
-      image_name: my_image
-      tag: my_tag
+  #build1:
+  #  uses: sabhahit/child-pipeline/.github/workflows/child.yml@main
+  #  with:
+  #    image_name: my_image
+  #    tag: my_tag
     
           
     
