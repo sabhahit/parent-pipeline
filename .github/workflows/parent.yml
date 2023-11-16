@@ -1,7 +1,7 @@
 # test
 name: deploy
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
        SP_USERNAME: 
          default: "sp-ns-username"
