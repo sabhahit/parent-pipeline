@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+  inputs:
+     name: 
+       SP_USERNAME: "sp-ns-username"
+       SP_PASSWORD: "sp-ns-password"
 jobs:
   build:
     name: ns-build
