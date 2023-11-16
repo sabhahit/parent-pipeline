@@ -23,8 +23,8 @@ jobs:
   build1:
     uses: sabhahit/child-pipeline/.github/workflows/child.yml@main
     with:
-      image_name: my_image
-      tag: my_tag
+      image_name: "my_image"
+      tag: "my_tag"
     
           
     
