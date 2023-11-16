@@ -4,9 +4,9 @@ on:
     branches:
       - main
   inputs:
-     name: 
-       SP_USERNAME: "sp-ns-username"
-       SP_PASSWORD: "sp-ns-password"
+     SP_USERNAME: 
+       default: "sp-ns-username"
+       
 jobs:
   build:
     name: ns-build
