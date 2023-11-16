@@ -1,13 +1,7 @@
-# test
 name: deploy
 on:
   workflow_dispatch:
-    inputs:
-       SP_USERNAME: 
-         default: "sp-ns-username"
-env:
-  env_var: dev
-  
+     
 jobs:
   #build:
   #  name: ns-build
