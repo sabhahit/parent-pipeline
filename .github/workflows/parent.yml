@@ -3,9 +3,9 @@ on:
   push:
     branches:
       - main
-  inputs:
-     SP_USERNAME: 
-       default: "sp-ns-username"
+    inputs:
+       SP_USERNAME: 
+         default: "sp-ns-username"
        
 jobs:
   build:
